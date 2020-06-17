@@ -8,7 +8,16 @@
       "type": "java",
       "name": "Debug (Launch) - Current File",
       "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File with args",
+      "request": "launch",
       "mainClass": "${file}",
+      "args": [
+        "X:\\Projects\\interpreter\\com\\craftinginterpreters\\lox"
+      ]
     },
     {
       "type": "java",
